@@ -1,0 +1,47 @@
+.div_addressbox{
+	background-color: #fff;
+}
+.div_addressimfor{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+.div_addressbox h2{
+	padding:10px 0;
+}
+.div_addressbox b{
+	float: right;
+}
+.div_addressimfor h2 span{
+	font-family: "微软雅黑"
+}
+.div_addressimfor h2 b{
+	font-family: "Arial"
+}
+.a_btnrevise,.a_btndelete{
+	width: 24px;
+    height: 26px;
+    display: inline-block;
+    background: url(../images/sprites.png) -100px 0 no-repeat;
+    -webkit-background-size: 420px auto;
+    background-size: 420px auto;
+}
+.a_btndelete{
+	background-position: -140px 0;
+}
+.div_addressbox h3{
+	text-align: right;
+	margin-top:7px;
+}
+/*保存按钮*/
+.div_save{
+	margin-top:15px;
+	text-align: center;
+	background-color: #fff;
+	padding: 0;
+}
+.a_btnsave,.a_btntianjia{
+	display: block;
+	padding: 12px 0;
+	font: 14px "微软雅黑";
+	text-align: center;
+}

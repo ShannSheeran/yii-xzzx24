@@ -1,0 +1,43 @@
+html body{
+	background-color: #fff;
+}
+
+.div_prompt{
+	width:250px;
+	height:300px;
+	background-color: #fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top:-190px;
+	margin-left: -125px;
+	text-align: center;
+}
+.imgbox {
+	width:120px;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.imgbox img{
+	width:100%;
+}
+.div_prompt h2{
+	font:16px "微软雅黑";
+	color:#f96464;
+	margin-bottom: 5px;
+}
+.div_prompt h3{
+	font:14px "微软雅黑";
+	color:#666;
+	margin-bottom: 10px;
+}
+.div_prompt h3 span{
+	margin: 0 5px;
+}
+.div_prompt a{
+	display: inline-block;
+	font:14px/30px "微软雅黑";
+	color:#f96464;
+	width:60px;
+	height:30px;
+}

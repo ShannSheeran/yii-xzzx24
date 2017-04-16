@@ -1,0 +1,229 @@
+body{
+	background-color: #f7f7f7;
+}
+.bannermagintop{
+	margin-top:5px;
+}
+.textleft{
+	float: left;
+}
+.article{
+	padding:10px;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+.article img{
+	display: block;
+	margin:0 auto;
+}
+.div_readtop{
+	margin:10px 0 ;
+	position: relative;
+}
+.div_readtop span{
+	position: absolute;
+	right:10px;
+	top:0px;
+}
+.article_main{
+	width:100%;
+}
+.article_main p{
+	margin-bottom: 15px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/*********************************** 专题 ****************************/
+.div_sharetitle{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.div_sharetitle .col-xs-12 span{
+	display: block;
+	width:80px;
+	text-align: center;
+	padding:10px;
+	position: absolute;
+	left:50%;
+	top:-20px;
+	margin-left:-40px;
+	background-color: #fff;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_sharetitle .div_sharebtn  s{
+	display: block;
+	width:100%;
+	height:1px;
+	overflow: hidden;
+	background-color: #ddd;
+	margin:0 auto;
+}
+.div_sharebtn{
+	margin-bottom: 20px;
+}
+.div_sharebtn ul li{
+	width:25%;
+	float: left;
+	text-align: center;
+	margin:0 auto;
+	margin-top:20px;
+}
+.div_sharebtn ul li a{
+	display: block;
+	width:36px;
+	height:36px;
+	background:  url(../images/icon_index.png) 0 -260px no-repeat;
+	-webkit-background-size: 400px auto;
+	background-size: 400px auto;
+	margin:0 auto;
+}
+.div_sharebtn ul li:first-child a{
+	background-position: 0 -260px;
+}
+.div_sharebtn ul li:nth-child(2) a{
+	background-position: -59px -260px;
+}
+.div_sharebtn ul li:nth-child(3) a{
+	background-position: -122px -260px;
+}
+.div_sharebtn ul li:nth-child(4) a{
+	background-position: -186px -260px;
+}
+.div_topics{
+	margin-top:10px;
+}
+.div_topics h2,.div_topics ul li p{
+	font:14px "微软雅黑";
+	color:#333;
+	margin-bottom: 10px;
+}
+.div_topics ul li{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.div_topics ul li img{
+	width:30%;
+	float: left;
+}
+.div_topics ul li p{
+	width:60%;
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.div_readfoot{
+	height:50px;
+	border-top:1px solid #eee;
+	background-color: #fff;
+}
+.div_readfoot .col-xs-12{
+	padding-top: 13px;
+}
+.div_readfoot .col-xs-12 a,.div_readfoot .col-xs-12 a:first-child span{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	background: #fff url(../images/icon_index.png) 0 0 no-repeat;
+	-webkit-background-size: 400px auto;
+	background-size: 400px auto;
+}
+.div_readfoot .col-xs-12 a:nth-child(2){
+	background-position: -280px -280px;
+}
+.div_readfoot .col-xs-12 a:first-child{
+	margin-right: 20px;
+}
+.div_readfoot .col-xs-12 a:first-child span{
+	background-position: -235px -280px;
+	
+}
+.div_readfoot .col-xs-12 a:first-child span.current{
+	background-position: -235px -310px;
+	
+}
+.div_readfoot .col-xs-12 a:nth-child(3){
+	float: right;
+	background-position: -316px -280px;
+}
+.div_readfoot .col-xs-12 a:first-child b{
+	position: absolute;
+	bottom: 10px;
+	left:45px;
+	color:#e85055;
+}
+
+.div_remindbox{
+	width: 220px;
+    height: 110px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: -55px;
+    background-color: #fff;
+    z-index: 9;
+    zoom: 1;
+    border-radius: 30px;
+}
+.div_popup {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 888;
+}
+.div_mask{
+    background-color: #000;
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+}
+.div_remindbox h4{
+	padding-bottom: 18px;
+	padding-top:20px ;
+	text-align: center;
+	font:16px "微软雅黑";
+	color:#333;
+}
+.div_remindbox  span{
+	display:block;
+	position: absolute;
+	bottom:50px;
+	width:100%;
+	height:1px;
+	background-color: #ddd;
+	overflow: hidden;
+	z-index: 11;
+	opacity: 1!important;
+}
+.div_remindbox a{
+	display: inline-block;
+	width:49%;
+	text-align: center;
+	font:14px/51px "微软雅黑";
+	color:#f5686d;
+	height:51px;
+}
+.div_remindbox .a_open{
+	border-right: 1px solid #ddd;
+}
+.div_mask{
+	background-color: #000;
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+}

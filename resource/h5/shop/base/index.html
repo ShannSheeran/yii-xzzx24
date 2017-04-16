@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="/demo/libs/seajs/2.3.0/sea.js"></script>
+<script type="text/javascript">
+var JS_SEAJS_BASE_URL = '/demo/';
+seajs.config({
+	base: "/demo/",
+	alias:{
+		"jQuery":"libs/jQuery/jQuery.js",
+		"artDialog":"external/artDialog/src/dialog-plus.js",
+		"sitebase":"app/common/base.js"
+	},
+	map: [
+	[ /^(.*\.(?:css|js))(.*)$/i, '$1?20110802' ]
+  ]
+});
+</script>
+
+<script type="text/javascript">
+	seajs.use("app/index/index",function(a){ 
+		//a.a('fdsaf');
+	});
+	
+	seajs.use("app/goods/good",function(a){ 
+		a.tt();
+	});
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

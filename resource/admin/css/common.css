@@ -1,0 +1,73 @@
+.div_form{
+	margin-top:30px;
+	height:auto;
+	overflow: hidden;
+	border:1px solid #eee;
+	padding:20px 15px 0;
+}
+.div_form .div_input{
+	min-width:380px;
+	float: left;
+	font:14px/24px "Î¢ÈíÑÅºÚ";
+	color:#333;
+	margin-bottom: 10px;
+}
+.div_form .div_input input{
+	display: inline-block;
+	width:60%;
+	border:0;
+	border:1px solid #ddd;
+	height:24px;
+	padding-left: 10px;
+	font:14px/24px "Î¢ÈíÑÅºÚ";
+	color:#333;
+}
+.div_form .div_input label{
+	display: inline-block;
+	min-width:120px;/*  */
+	font:14px/24px "Î¢ÈíÑÅºÚ";
+	color:#333;
+	font-weight: normal;
+	vertical-align: top;
+}
+.div_form .textbox {
+	position: relative;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+	width:60%!important;
+	height:24px!important;
+	border-radius: 0;
+}
+.div_form .div_input select{
+	width:60%;
+	height:24px;
+	border:1px solid #ddd;
+}
+.div_form .div_input textarea{
+	width:60%;
+	padding-left: 10px;
+}
+.div_form .div_querybtn{
+	text-align: center;
+	border-top:1px solid #eee;
+	padding:15px 15px;
+	background-color: #fcfcfc;
+}
+.div_form .div_querybtn a{
+	margin:0 auto;
+	width:100px;
+	border-radius:20px;
+	margin:0 10px;
+}
+.div_form .validatebox-text{
+	color: #000;
+} 
+.div_form  form {
+    width:100%!important;
+} 

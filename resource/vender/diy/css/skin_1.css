@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*背景*/
+.pm-bg-f3{background-color: #f3f3f3;}
+.pm-bg-blue,.pm-function-text,#iphone .pm-install-hd,.pm-bg-light-white,.pm-temp-tab a.cur{background-color: #62b8e8;}
+.pm-bg-white{background-color: #fff;}
+.pm-bg-deep-white{background-color: #333a4d;}
+.pm-bg-gray{background-color:#828282;}
+.pm-bg-f246{background-color:#f2f4f6;}
+.pm-bg-888{background-color:#888;}
+.pm-bg-f8{background-color:#f8f8f8;}
+
+#page-content .pm-lyt-md .pm-column,#page-content .pm-mod-md.hover,#page-content .pm-lyt-md.widget_view_selected .pm-column,#page-content .pm-mod-control span,#page-content .pm-column .pm-mod-md.widget_view_selected{border: 1px #62b8e8 solid;}
+#page-content .pm-mod-control span,.pm-phoneframe-bd .cter-tabbar li.cur{color:#62b8e8;}
+#page-content .pm-mod-control span.pm-mod-move{border:0;}
+.pm-config-tab li.on span{border-bottom:3px #62b8e8 solid;}
+
+#android .pm-install-hd{background-color:#1ec2a0;}
+#android .pm-install-hd a{background-color:#2baf2b;border:1px #0a8f08 solid;}
+#iphone .pm-install-hd a{background-color:#039be5;border:1px #008bd1 solid;}
+#android .bar{background-color:#99d15a;}
+#iphone .bar{background-color:#5aa0d1;}
+
+
+/*字体颜色*/
+.pm-navbar-nav li a,.pm-main-nav > ul > li > a,.pm-navbar p,.pm-level-menu>ul>li>span>a{color: #fff;}
+.pm-clr-white{color: white;}
+.pm-clr-333{color: #333;}
+.pm-clr-39c{color:#39c;}
+.pm-clr-666{color:#666;}
+.pm-clr-888{color:#888;}
+.pm-clr-999{color:#999;}
+.pm-clr-ccc{color:#ccc;}
+.pm-clr-aaa{color:#aaa;}
+.pm-clr-bbb{color:#bbb;}
+.pm-config-tab li.on a,.dropdown-menu dl dd a:hover{color:#62b8e8;}
+
+
+/*导航栏*/
+.pm-console-topbar .topbar-quick-nav i{width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #fff;display: inline-block;margin:0 5px;}
+
+/*框架侧边菜单*/
+.viewFramework-submenu p{background-color:#172038;}
+.viewFramework-submenu>ul>li.cur{background:#475068;}
+.viewFramework-submenu>ul>li.cur span{width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-right: 7px solid #fff;display: inline-block;float:right;margin-top:18px;}
+.viewFramework-submenu li a{color:#ccc;font-size:14px;}
+.viewFramework-threemenu li a{color:#999;}
+.viewFramework-threemenu>ul>li.cur a{color:#333a4d;}
+.viewFramework-threemenu>ul>li.cur{background:#f8f8f8;}
+
+.pm-phoneframe-state li {font-size:14px;color:#333;}
+
+/*上传图片*/
+.FileImgadd {background-color:#f4f4f5;}
+.pm-setting-tips{background:#ccc;}

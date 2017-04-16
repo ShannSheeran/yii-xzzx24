@@ -1,0 +1,176 @@
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top}
+/* 以上可合并 */
+.clear{clear:both}
+.clear:after{
+	clear:both;
+	display:table;
+	content:''
+}
+
+body{
+	background-color:#fc757b!important;
+}
+
+/* .div_signbox{
+	padding: 0;
+} */
+/*签到按钮*/
+.div_qianBtn{
+	width:80%;
+	height:44px;
+	text-align: center;
+	color:#b25d06;
+	font: 600 18px/44px "微软雅黑";
+	background-color: #ffeb42;
+	border-radius: 5px;
+	margin:0 auto;
+	cursor: pointer;
+}
+.div_qianBtn:active{
+	background-color: #ffc603;
+}
+.div_qianDao p{
+	font:14px/20px "微软雅黑";
+	color:#feb3b6;
+	text-align: center;
+	margin-top:5px;
+}
+.div_calendar{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	padding:0;
+}
+.div_calendarIn{
+	width:100%;
+	height:auto;
+	background-color: #fc8388;
+	overflow: hidden;
+}
+
+/*日历*/
+#demo {
+	width: 320px;
+	margin: 0 auto;
+	color:#fff;
+}
+p {
+	margin: 0;
+}
+#dt {
+	margin: 30px auto;
+	height: 28px;
+	width: 200px;
+	padding: 0 6px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.week{
+	margin-bottom:0;
+}
+.div_rules{
+	color:#feb3b6;
+	padding-bottom: 10px;
+	margin-top:5px;
+}
+.div_rules h2{
+	font:600 14px "微软雅黑";
+	margin-top:0;
+	margin-bottom: 0;
+
+}
+.div_rules p{
+	font:12px/20px "微软雅黑";
+	color: #feb3b6;
+}
+
+
+/*已签到*/
+.calendar .calendar-views .qian {
+    color: #fff;
+    background: #a36fff!important; 
+}
+
+/*签到弹窗*/
+.div_popup {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 888;
+}
+.div_mask{
+    background-color: #000;
+    height: 100%;
+    opacity: 0.55;
+    width: 100%;
+}
+.qiandao-sprits {
+    background:url("../images/qiandao_sprits.png") 0px 0px no-repeat;
+    -webkit-background-size: 320px auto;
+    background-size: 320px auto;
+}
+.qiandao-layer-con {
+    height: 180px;
+    width: 250px;
+    margin:0 auto;
+    background-color: #fff;
+    border: 2px solid #33b23f;
+    border-radius: 5px;
+    z-index: 999;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top:-90px;
+    margin-left: -125px
+}
+.yiqiandao{
+	margin:10px 0 0 0px;
+	color:#666;
+	font-size:14px;
+	line-height:30px;
+	text-align: center;
+}
+.yiqiandao .yiqiandao-icon{
+	width: 100px;
+    height: 24px;
+    background-position: -116px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.qiandao-jiangli {
+    background-position: 0 -75px;
+    height: 97px;
+    margin: 0 auto;
+    position: relative;
+    width: 184px;
+}
+.qiandao-jiangli span{
+	position: absolute;
+    top: 55px;
+    left: 50%;
+    margin-left: -32%;
+    display: block;
+    width: 100px;
+    height: 40px;
+    color: #ff7300;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.qiandao-jiangli span em{
+	padding-left:5px;
+	font-style:normal;
+	font-size:1pc;
+}
+
+
+
+
+.h40{
+	height:40px;
+}

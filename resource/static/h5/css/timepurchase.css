@@ -1,0 +1,59 @@
+.div_xianshimain{
+	margin-top:5px;
+}
+.textleft{
+	float: left;
+}
+
+.xianshigou{
+	padding:10px;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+.xianshigou a{
+	display: inline-block;
+	width:100%;
+	position: relative;
+}
+.xianshigou .country{
+	float: right;
+}
+.xianshigou div{
+	margin:10px 0 0 0;
+}
+
+.div_marks span{
+	display:inline-block;
+	padding:2px 5px;
+	background-color: #fc757b;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	width:50px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.div_marks i{
+	display:inline-block;
+	padding:2px 5px;
+	background-color: #000;
+	opacity: 0.5;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	font-style: normal;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+.div_marks i s{
+	display: inline-block;
+    width: 20px;
+    padding: 8px 0;
+    background: url(../images/icon_index.png) -38px -69px no-repeat;
+    -webkit-background-size: 400px auto;
+    background-size: 400px auto;
+    vertical-align: middle;
+    margin-top: -5px;
+}

@@ -1,0 +1,171 @@
+.datagrid .icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.datagrid .icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.datagrid .icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.datagrid .icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.datagrid .icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.datagrid .icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.datagrid .icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.datagrid .icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.datagrid .icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.datagrid .icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center !important;
+}
+.datagrid .icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.datagrid .icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.datagrid .icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.datagrid .icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.datagrid .icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.datagrid .icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.datagrid .icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.datagrid .icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.datagrid .icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.datagrid .icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.datagrid .icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.datagrid .icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.datagrid .icon-more{
+	background:url('icons/more.png') no-repeat center center;
+}
+
+
+.datagrid .icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.datagrid .icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.datagrid .icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.datagrid .icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.datagrid .icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.datagrid .icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.datagrid .icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.datagrid .icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+.datagrid .icon-edit:before{content:""!important;}
+.datagrid [class^="icon-"], [class*=" icon-"] {	
+    display: inline-block!important;
+    width: 16px!important;
+    height: 16px!important;
+    line-height: 16px!important;
+    position: absolute!important;
+    top: 50%!important;
+    margin-top: -8px!important;
+    font-size: 1px!important;
+}
+
+.panel .icon-remove:before{content:""!important;}
+.panel  [class^="icon-"], [class*=" icon-"] {	
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    position: absolute !important;
+    top: 50% !important;
+    margin-top: -8px !important;
+    font-size: 1px !important;
+}
+
+.datagrid button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: #000;
+}
+.datagrid a {
+    color: #337ab7!important;
+    text-decoration: none;
+}
+/*图标*/
+/*1、保存图标*/
+.l-btn-icon-left .l-btn-text {
+  margin: 0 4px 0 24px !important;
+}
+/*2、商品列表重置图标*/
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center !important;
+}
+/*3、商城订单的导出excel表的图标*/
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center !important;
+}
+/*4、快递管理的重置图标*/
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center !important;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center !important;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center !important;
+}
+/*修改密码*/
+.J-addFloorFormddd{
+	padding-top: 25px;
+	padding-left: 60px;
+}
+#opendWindows .J-addFloorFormddd tr{
+	height: 28px;
+	font-size: 12px;
+}
+#opendWindows .form-actions{
+	margin-top: 10px;
+}
+#opendWindows .validatebox-invalid{
+	background-color: #f5f5f5;
+	border: 1px solid #e0e0e0;
+}
+#opendWindows .btn-info{
+	margin-left: 25px;
+}

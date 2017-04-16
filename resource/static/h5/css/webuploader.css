@@ -1,0 +1,35 @@
+/* 我的定义样式 */
+.webuploader-pick{
+    height:30px!important;
+}
+
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.state-ready{
+	height:30px!important;
+	line-height: 30px;
+}
+.webuploader-container .my_picbtn{
+	width:60px!important;
+	height:60px!important;
+	background:  url(../images/my_picbtn.png) center center no-repeat!important;
+	-webkit-background-size: cover!important;
+	background-size: cover!important;
+}

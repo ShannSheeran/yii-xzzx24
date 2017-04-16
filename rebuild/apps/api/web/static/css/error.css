@@ -1,0 +1,10 @@
+body{}
+h1{display:inline-block; width:40px; height:40px; font-size:40px; background-color:#FF6600; text-align:center; line-height:40px; border-radius:20px; color:#FFFFFF;}
+h2{display:inline-block; height:40px; font-size:40px; line-height:40px; color:#FF6600; margin-left:10px;}
+h3{width:90%; font-size:25px; color:#333333; margin:0px auto; padding:20px 0px; border-bottom:1px solid #E1E1E1;    text-align:center;}
+h4{width:90%; font-size:18px; color:#999999; margin:0px auto; padding:20px 0px; line-height:150%;}
+.error-container{padding:0px; margin:0px; font-size:0px; display:block; font-family:微软雅黑; font-weight:normal;}
+.error-container > .title{text-align:center; margin:60px 0px 40px 0px;}
+.error-container > .content{width:94%; max-width:800px; min-height:200px; background-color:#FFFFFF; margin:0px auto;  box-shadow: 0px 0px 10px 3px #AAAAAA; padding:20px 0px;}
+.error-container > .redirect{width:94%; max-width:800px; margin:0px auto; text-align:center; margin-top:50px; margin-bottom:100px;}
+.error-container > .redirect > a{font-size:18px; background-color:#0066CC; color:#FFFFFF; display:inline-block; text-decoration:none; cursor:pointer; padding:5px 20px; border-radius:5px; margin:0px 5px;}

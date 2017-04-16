@@ -1,0 +1,559 @@
+/***************************************** 我的地址管理 *****************************************/
+.div_addressbox{
+	background-color: #fff;
+}
+.div_addressimfor{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+.div_addressbox h2{
+	padding:10px 0;
+}
+.div_addressbox b{
+	float: right;
+}
+.div_addressimfor h2 span{
+	font-family: "微软雅黑"
+}
+.div_addressimfor h2 b{
+	font-family: "Arial"
+}
+.a_btnrevise,.a_btndelete{
+	width: 24px;
+    height: 26px;
+    display: inline-block;
+    background: url(../images/sprites.png) -100px 0 no-repeat;
+    -webkit-background-size: 420px auto;
+    background-size: 420px auto;
+}
+.a_btndelete{
+	background-position: -140px 0;
+}
+.div_addressbox h3{
+	text-align: right;
+	margin-top:7px;
+}
+/*保存按钮*/
+.div_save{
+	margin-top:15px;
+	text-align: center;
+	background-color: #fff;
+	padding: 0;
+}
+.a_btnsave,.a_btntianjia{
+	display: block;
+	padding: 12px 0;
+	font: 14px "微软雅黑";
+	text-align: center;
+}
+
+/***************************************** 我的评价开始 *****************************************/
+.div_evaluate{
+	padding:10px 15px 15px;
+	background-color: #fff;
+	height:auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.div_evaluate>p{
+	padding:5px 0;
+	font:12px "微软雅黑";
+	color:#9c9a9a;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.div_evaluate p span{
+	font:12px "arial";
+}
+.div_imgbox{
+	width:50%;
+}
+.div_evaluate h4{
+	font:14px "微软雅黑";
+	color:#333;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.div_evaluate h4 s{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: #fff url(../images/sprites.png) -93px -30px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+	vertical-align: middle;
+    margin-top: -4px;
+}
+
+.div_myevaluate .a_touxiang{
+	display: block;
+	width:40px;
+	height:40px;
+	border:1px solid #eee;
+	border-radius: 30px;
+	overflow: hidden;
+	background-clip:padding-box;/* 解决移动端 圆角 背景色溢出 */
+	vertical-align: middle;
+
+}
+.div_myevaluate .a_touxiang img{
+	height:100%;
+	margin:0 auto;
+}
+
+.div_ppingjia{
+	width:85%;
+	float: left;
+}
+.div_myevaluate p{
+	font:12px/20px "微软雅黑";
+	color:#6e6b6b;
+}
+/******************** 口碑 ************************/
+.div_atouxiang{
+	width:20%;
+	float: left;
+}
+.div_myevaluate{
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+        overflow: hidden;
+}
+.div_myevaluate .a_touxiang img{
+	height:100%;
+	margin:0 auto;
+}
+.div_ppingjia{
+	width:80%;
+	float: left;
+}
+.div_ppingjia h3{
+	font:14px/20px "微软雅黑";
+	color:#333;
+	margin-bottom: 10px;
+}
+.div_myevaluate p{
+	font:12px/20px "微软雅黑";
+	color:#6e6b6b;
+}
+.div_ppingjia h5{
+	margin-top:10px;
+	font:12px/20px "Arial";
+	color:#999;
+}
+.a_tjbtn{
+	display: block;
+	width:80px;
+	height:30px;
+	border:1px solid #ddd;
+	text-align: center;
+	font:14px/30px "微软雅黑";
+	color:#666;
+	margin-top:6px;
+	float: right;
+}
+/**************************************** 我的卡券开始*************************************** */
+.div_kaquan{
+	background-color: #fff;
+	margin:10px 0 0 0;
+	padding: 0;
+}
+.div_kaquanleft{
+	float: left;
+	width:30%;
+	height:auto;
+	height:90px;
+
+	text-align: center;
+	line-height: 90px;
+	background: url(../images/kaquan-bg.png) right top no-repeat;
+	-webkit-background-size: 150px auto;
+	background-size: 150px auto;
+}
+.div_kaquanleft b{
+	font-family: "微软雅黑"
+}
+.div_kaquanleft span{
+	margin:0 auto;
+	text-align: center;
+	font:24px "Arial";
+	color:#fff;
+}
+.div_kaquanright {
+	float: left;
+	padding:10px 0 0 0;
+}
+.div_kaquanright h3,.div_kaquanright p{
+	margin-left: 20px;
+	font:13px "微软雅黑";
+	color:#333;
+}
+.div_kaquanright p{
+	color:#a4a3a3;
+	position: absolute;
+	bottom:5px;
+}
+
+
+
+/**************************************** 我的积分开始*************************************** */
+
+.div_myjifen{
+	background-color: #fff;
+	text-align: center;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.div_myjifen h3{
+	font:34px "Arial";
+	color:#f5686d;
+}
+.div_myjifen span{
+	display: inline-block;
+	font:14px "微软雅黑";
+	color:#adadad;
+}
+.div_myjifen .a_ckmx{
+	display: block;
+	border:1px solid #333;
+	border-radius: 30px;
+	width:100px;
+	padding:3px 10px;
+	margin:0 auto;
+	margin-top:20px;
+	font:14px "微软雅黑";
+	color:#333;
+	text-align: center;
+}
+.div_jifenbanner{
+	padding:0;
+}
+.div_jifentotal{
+	padding:10px 15px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.div_jifentotal h2{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_jifentotal h2 span{
+	font-family: "Arial";
+	color:#f37878;
+	font-weight: 700;
+}
+.div_jifentotal p{
+	font:12px "Arial";
+	color:#959595;
+	margin-top:5px;
+}
+.div_jifentotal b{
+	font:14px "Arial";
+	color:#333;
+	position: absolute;
+	bottom: 10px;
+	right:15px;
+}
+
+/**************************************** 我的浏览记录开始*************************************** */
+.div_myzuji{
+	padding:10px 15px ;
+	background-color: #fff;
+	border-bottom: 4px solid #eee;
+}
+.div_myzuji .div_imgbox{
+	width:40%;
+	float: left;
+}
+.div_myzuji h3{
+	display: block;
+	float: left;
+	margin-top:20px;
+	margin-left: 10px;
+	width: 50%;
+}
+.div_myzuji h3 span{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_myzuji h3 p{
+	display: block;
+	font:700 18px "Arial";
+	color:#333;
+	margin-top:20px;
+}
+
+
+/**************************************** * 我的分享 **************************************** */
+
+.div_share{
+	 background:  url(../images/share_bg.png) center center no-repeat; 
+	 -webkit-background-size: cover;
+	 background-size: cover;
+	 text-align: center;
+}
+.a_myshare{
+	display: block;
+	margin:0 auto;
+	width:150px;
+	padding:10px 10px;
+	border-radius:50px;
+	position: absolute;
+	bottom:15%;
+	left:50%;
+	margin-left:-75px;
+	background-color: #fce776;
+	overflow: hidden;
+	background-clip:padding-box;/* 解决移动端 圆角 背景色溢出 */
+	text-align: center;
+	font:16px "微软雅黑";
+	color:#fe5d62;
+	box-shadow:0 0 10px rgba(254,93,98,0.9);
+}
+.div_share p{
+	display: block;
+	color:#fff;
+	font:16px "微乳雅黑";
+	position: absolute;
+	top:55%;
+	left:50%;
+	margin-left: -65px;
+}
+/* 分享按钮提示弹窗 */
+.div_popup {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1111;
+}
+.div_mask{
+    background-color: #000;
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+}
+.div_popup img{
+	width:60%;
+	position: absolute;
+	z-index: 1200;
+	top: 50px;
+    right: 10px;
+}
+
+/* ****************************************申请退货**************************************** */
+.div_btnsq{
+	padding-left: 0;
+}
+.div_tuihuo{
+	padding:10px 15px;
+	background-color: #fff;
+}
+.div_tuihuo h3{
+	height:auto;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.div_tuihuo h3 span{
+	font: 14px "微软雅黑";
+	color:#333;
+	float: left;
+}
+.div_tuihuo h3 a{
+	float: right;
+	color:#f5686d;
+	font: 14px "微软雅黑";
+}
+
+.div_tuihuo>p{
+	display: block;
+	font: 14px "Arial";
+	color:#a09d9d;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.div_tuihuopro{
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+}
+.div_tuihuopro .div_imgbox{
+	width:40%;
+	float: left;
+}
+.div_tuihuopro h3{
+	display: block;
+	float: left;
+	margin:20px 0 0 10px;
+}
+.div_tuihuopro h3 span{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_tuihuopro h3 p{
+	display: block;
+	font:14px "Arial";
+	color:#9c9a9a;
+	margin-top:40px;
+}
+.div_tuihuopro h3 p span{
+	color:#9c9a9a;
+}
+.div_tuikuan{
+	background-color: #fff;
+	padding:10px 15px;
+}
+.div_tuikuan span{
+	float: left;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_tuikuan a{
+	float: right;
+	font:12px "微软雅黑";
+	color:#fff;
+	padding:4px 10px;
+	text-align: center;
+	background-color: #f5686d;
+}
+/* 退货详情 */
+.div_mytuihuo{
+	background-color: #fff;
+	padding:10px 15px;
+}
+.div_mytuihuo h3{
+	padding:10px 0;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_mytuihuo .textarea_tuihuo{
+	width:100%;
+	overflow: hidden;
+	border:none;
+	resize:none;
+    padding: 5px 0 0 10px;
+    font: 12px/1.5em "微软雅黑";
+    color: #666;
+    border:1px solid #eee;
+}
+.div_mytuihuo input{
+	display: block;
+	width:80%;
+	height:40px;
+	background-color: #f76f75;
+	font:14px/40px "微软雅黑";
+	color:#fff;
+	text-align: center;
+	margin:20px auto ;
+}
+/******************************************* 我的反馈 ***************************************/
+.div_myfankui{
+	background-color: #fff;
+	padding:10px 15px;
+}
+.textarea_fankui{
+	width:100%;
+	overflow: hidden;
+	border:none;
+	resize:none;
+    padding: 5px 0 0 10px;
+    font: 12px/1.5em "微软雅黑";
+    color: #666;
+}
+.div_mypic{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+/************************************** 发表评价 ************************************/
+.div_picture{
+	background-color: #fff;
+	padding-top:10px;
+}
+.div_picture img{
+	width:30%;
+	border:1px solid #eee;
+        float: left;
+}
+.div_star{
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+	margin-top:2px;
+        margin-bottom: 10px;
+}
+.div_star h2,.div_star h3{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_star h3{
+	margin:5px 0;
+}
+.span_star{
+	float: right;
+}
+
+/* 复选框样式自定义开始 */
+.div_niming label{
+	background:url(../images/sprites.png) -311px 5px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+	display:inline-block;
+	height:30px;
+	padding-left:25px;
+	position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -15px;
+}
+.div_niming input{
+	visibility:hidden;
+}
+.div_niming .checked{
+	background:url(../images/sprites.png) -270px 5px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+} 
+.div_niming label{
+	font-size: 14px;
+	float: right;
+	left:10%;
+    padding-top: 5px;
+    background-position: -311px 8px;
+}
+.div_niming .checked{
+	background:url(../images/sprites.png) -270px 8px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+} 
+/* 复选框样式自定义结束 */
+.div_niming{
+	padding:10px 15px;
+}
+.div_pjfooter{
+	background-color: #fff;
+}
+.span_allcheck{
+	text-align: center;
+	display: inline-block;
+    margin-left: 22px;
+    font:14px "微软雅黑";
+    color:#333;
+}
+.div_submit{
+	padding:15px 15px;
+	background-color: #f76f75;
+	text-align: center;
+}
+.div_submit a{
+	display: inline-block;
+	wdith:80%;
+        margin-left: 10%;
+	height:100%;
+	font:14px "微软雅黑";
+    color:#fff;
+}

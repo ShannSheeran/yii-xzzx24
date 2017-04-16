@@ -1,0 +1,225 @@
+.div_inshopcar_left{
+	position: relative;
+        height:100px;
+	text-align: center;
+}
+.div_inshopcar{
+	height:auto;
+        margin-top: -15px;
+}
+.div_goods{
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	margin-top: 5px;
+}
+.div_goods .col-xs-1,.div_goods .col-xs-2,.div_goods .col-xs-3,.div_goods .col-xs-4,.div_goods .col-xs-6{
+	padding:0;
+}
+.div_goods .col-xs-2{
+	 width: 10%;
+}   
+.div_goods .col-xs-4{
+	width:30%;
+}
+.div_goods .col-xs-6{
+	width:60%;
+	padding:0 10px;
+}
+.div_inshopcar_mid img{
+	border:1px solid #eee;
+}
+
+/* 复选框样式自定义开始 */
+.div_inshopcar_left label{
+	background:url(../images/sprites.png) -311px 5px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+	display:inline-block;
+	height:30px;
+	padding-left:25px;
+	position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -15px;
+}
+.div_inshopcar_left input{
+	visibility:hidden;
+}
+.div_inshopcar_left .checked{
+	background:url(../images/sprites.png) -270px 5px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+} 
+.span_allcheck{
+	text-align: left;
+}
+/* 复选框样式自定义结束 */
+
+
+/* 购物车商品 */
+.div_inshopcar_mid img{
+	width:110px;
+	height:110px;
+}
+.div_goods .div_inshopcar_right{
+	padding-right: 10px;
+}
+.div_inshopcar_right p{
+	margin-bottom: 5px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color:#111;
+}
+.div_inshopcar_right p a{
+	color:#111;
+	font-size: 16px;
+}
+.div_inshopcar_right h4{
+	margin-top:10px;
+}
+.div_inshopcar_right h3{
+	margin-top:12px;
+}
+.div_inshopcar_right h4 s{
+	display: inline-block;
+	width:20px;
+	height:26px;
+	background:url(../images/sprites.png) -355px 9px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+	cursor: pointer;
+	float: left;
+    margin-top: 2px; 
+}
+.div_inshopcar_right h4 b{
+	font-size: 12px;
+	color:#999;
+	float: left;
+	margin-top:13px;
+	margin-left: 5px;
+}
+/* 宝贝失效 */
+.noeffect{
+	color:#fff;
+	padding:2px 3px;
+	font-size: 10px;
+	background-color: #ccc;
+	border-radius: 3px;
+	margin-top: 70%;
+    display: inline-block;
+}
+
+/* 增减 */
+
+.spinner{
+	display:block;
+	overflow:hidden;
+	width:auto;
+	float:right;
+	margin-top:5px;
+}
+.spinner .amount{
+	width:36px;
+	height:20px;
+	padding:2px 3px;
+	line-height:17px;
+	border:1px solid #d9d9d9;
+	float:left;
+	text-align:center;
+	font: 12px "Arial";
+	color:#f5686d;
+	outline:0;
+	margin-top:3px;
+} /**/
+.spinner a{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	float:left;
+	cursor:pointer;
+	outline:0;
+}
+.spinner a i{
+	font-style:normal;
+	background:url(../images/sprites.png) no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+	display:block;
+	width:20px;
+	height:20px;
+	text-indent:999999%;
+	overflow:hidden;
+	margin-top:3px;
+}
+.spinner .decrease i{
+	background-position:2px -32px;
+}
+.spinner .increase i {
+    background-position: -38px -32px;
+    float: right;
+}
+
+.spinner .disDe i{
+	background-position:2px -32px;
+}
+.spinner .disIn i{
+	background-position:2px -32px;
+}
+
+/* 结算 */
+.div_payTheOrder{
+	margin-top:10px;
+	border-top:1px solid #eee;
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	
+}
+.div_payTheOrder .div_inshopcar_left{
+	height:auto;
+	padding:20px 0;
+}
+.div_payTheOrder .div_inshopcar_left span{
+	font-size: 14px;
+	display: inline-block;
+    margin-left: -8px;
+}
+.div_payTheOrder .div_inshopcar_left label{
+	font-size: 14px;
+	float: right;
+	left:10%;
+    padding-top: 5px;
+    background-position: -311px 8px;
+}
+.div_payTheOrder .div_inshopcar_left .checked{
+	background:url(../images/sprites.png) -270px 8px no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+} 
+/* 合计 */
+.div_total{
+	text-align: right;
+	/*padding:18px 15px 10px 0;*/
+}
+.div_total h3 span{
+	font:700 16px "Arial";
+	color:#f40;
+}
+.div_total p{
+	margin-top:4px;
+}
+.div_btnPay{
+	background-color: #ff5000;
+	text-align: center;
+}
+.div_btnPay a{
+	padding:20px 0;
+	display: block;
+	width:100%;
+	height:100%:;
+}

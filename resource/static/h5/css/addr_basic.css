@@ -1,0 +1,75 @@
+*{margin: 0;padding: 0;list-style: none;}
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+margin: 0;
+padding: 0;
+}
+*{tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: rgba(0,0,0,0);}
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {font:12px/150% microsoft yahei,"\5b8b\4f53";color:#666;background: #fff;
+}
+h1{font:20px "microsoft yahei","\5b8b/4f53"}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; color:#666; }
+a:hover { text-decoration: none; }
+
+/** 文字溢出时的自动隐藏处理  **/
+.addr_over {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+img{vertical-align:middle;border:0}
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+input:focus{outline: none;}/* 清除Chrome Firefox选中后边框 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0;}
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1467360929_3652012.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1467360929_3652012.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1467360929_3652012.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1467360929_3652012.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1467360929_3652012.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                                                                                                                                                                                                         
+/** iconfont图标引用样式 **/
+.iconfont{font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+
+/** 浮动样式 **/
+.float-l{float: left;}
+.float-r{float: right;}
+.fl{display:inline;float:left !important;}
+.fr{display:inline;float:right !important;}
+/** 清除浮动样式 **/
+.clearfix{*+height:1%;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}
+
+.mt{cursor:default;}
+.hide{display:none}
+.login-form .login-box .mt:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.form label{float:none}
+.form .label,.form button,.form input,.form label,.form select,.form textarea{float:left;font-size:12px}
+.form input[type=password]{font-family:Tahoma,Helvetica,Arial;}

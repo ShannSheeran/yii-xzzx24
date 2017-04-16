@@ -1,0 +1,255 @@
+html body{
+	background-color: #fff;
+}
+.div_mypic {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.webuploader-container .my_picbtn{
+	width: 200px;
+	height:40px;
+	background-color: #999;
+	background: none;
+	color:#333;
+}
+#uploader .placeholder .webuploader-pick {
+    width: 140px!important;
+    height: 40px!important;
+    cursor: pointer;
+	background-color: #ccc;
+	margin:0px auto;
+	font:14px/40px "微软雅黑";
+}
+
+.div_videoimfor{
+	background-color: #fff;
+    padding: 10px 15px;
+}
+.div_videoimfor textarea{
+	
+	border:1px solid #ddd;
+}
+.textarea_fankui {
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    resize: none;
+    padding: 5px 0 0 10px;
+    font: 12px/1.5em "微软雅黑";
+    color: #666;
+}
+.span_remind{
+	position: absolute;
+	left:10px;
+	top:60px;
+	font-size: 1.1em;
+	color:#999;
+	display: block;
+	margin-bottom: 10px;
+}
+.div_remind{
+	margin-bottom: 20px;
+	padding:1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.div_remind span{
+	font:14px/20px "微软雅黑";
+	color:#999;
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+} 
+
+/* 信息输入*/
+.div_personName,.div_personPhone,.div_personAddress{
+	padding:0 1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin-bottom: 5px;
+}
+.div_personName label,.div_personPhone label,.div_personAddress label{
+	font:14px/20px "微软雅黑";
+	color:#999;
+}
+.div_personName input,.div_personPhone input,.div_personAddress input{
+	width:100%;
+	height:30px;
+	border:none;
+	border-bottom: 1px solid #ddd;
+	padding-left: 20px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	font:16px/30px "微软雅黑";
+	color:#333;
+}
+
+.div_submitbtn{
+	margin-top: 20px;
+	padding:1em;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.input_submit{
+	display: block;
+	width:140px;
+	margin:0 auto;
+	height:40px;
+	background-color: #f96464;
+	border:none;
+	font:14px/40px "微软雅黑";
+	color:#fff;
+}
+
+
+/* 视频列表************************************** */
+.div_video{
+	padding:0;
+	width:100%;
+	margin-top:10px;    
+	border-bottom: 1px solid #eee;
+}
+.videobox{
+	position: relative;
+        height:250px;
+	overflow: hidden;
+}
+.div_videomask{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:30px;
+	background-color: #000;
+	opacity: 0.5;
+	text-align: right;
+	line-height: 30px;
+	color:#fff;
+	padding: 0 10px;
+}
+.div_videomask span{
+	color:#fff;
+	margin-left: 5px;
+	line-height: 30px;
+}
+.div_videomask .span_name{
+	width:70%;
+	text-align: left;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.videoimfor{
+	padding:10px 10px;
+	height:auto;
+	overflow: hidden;
+}
+.color6{
+	color:#666;
+}
+.color9{
+	color:#999;
+}
+.floatl{
+	float:left;
+}
+.floatr{
+	float:right;
+}
+.textleft{
+	text-align: left;
+}
+.textright{
+	text-align: right;
+}
+
+
+.videoimfor h2{
+	margin-bottom: 10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	width:100%;
+}
+.videoimfor ul{
+	margin-top: 15px;
+    height: auto;
+    overflow: hidden;
+}
+.videoimfor ul li{
+	overflow: hidden;    
+}
+
+.videoimfor ul .li_icon{
+	width:25%;
+	text-align: center;
+}
+.span_icon{
+	display: inline-block;
+	width:18px;
+	height:24px;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url(../images/video_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 400px auto;
+	background-size: 400px auto;
+}
+.span_zan{
+	background-position: 0 0;
+}
+.span_ping{
+	background-position: -20px 0;
+}
+.span_play{
+	background-position: -40px 0;
+}
+.span_share{
+	background-position: -60px 0;
+}
+
+
+/* 视频详情（有评价）******************************** */
+.div_evaluate{
+	padding:10px 15px 15px;
+	background-color: #fff;
+	height:auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.div_atouxiang{
+	width:18%;
+	float: left;
+}
+.div_myevaluate{
+	margin-top:10px;
+	height:auto;
+	overflow: hidden;
+}
+.div_myevaluate .a_touxiang{
+	display: block;
+	width:40px;
+	height:40px;
+	border:1px solid #eee;
+	border-radius: 30px;
+	overflow: hidden;
+	background-clip:padding-box;/* 解决移动端 圆角 背景色溢出 */
+	vertical-align: middle;
+}
+.div_myevaluate .a_touxiang img{
+	height:100%;
+	margin:0 auto;
+}
+.div_ppingjia{
+	width:82%;
+	float: left;
+}
+.div_myevaluate p{
+	line-height: 20px;
+}
+.div_myevaluate h4{
+	margin-top: 10px;
+}

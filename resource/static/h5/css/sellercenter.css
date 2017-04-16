@@ -1,0 +1,537 @@
+/************************ 店铺分析******************** */
+.div_dpfx{
+	background-color: #fff;
+	padding:10px 15px;
+	margin-top: 5px;
+}
+.div_dpfx a{
+	display: block;
+	width:100%;
+	height:100%;
+	padding-left: 10px;
+}
+.div_dpfx a h3{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_dpfx a p{
+	font:12px "微软雅黑";
+	color:#999;
+	margin-top:10px;
+}
+.div_dpfx a .span_arr{
+	display: inline-block;
+	position: absolute;
+	top:25px;
+	right:10px;
+	width:20px;
+	height:20px;
+	background: url(../images/icon_index.png) -236px -100px no-repeat;
+	-webkit-background-size: 400px auto;
+	background-size: 400px auto;
+}
+/************* 店铺分析下的数据分析 *****************/
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+.div_analysis{
+	padding:10px 15px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.div_analysis h3{
+	font:14px "微软雅黑";
+	color:#333;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.div_analysis table{
+	border:none!important;
+	width:100%;
+}
+.div_analysis table td{
+	border:none!important;
+	text-align: center;
+}
+.div_analysis table td b{
+	display: inline-block;
+	padding: 2px 2px;
+	background-color: #eee;
+	border-radius: 4px;
+}
+.table-responsive{
+	border:none!important;
+}
+/**************** 店铺下的子铺分析 ***********/
+.div_zpfx .col-xs-2{
+	padding-right: 0;
+}
+.div_zpfx .col-xs-10{
+	padding-left: 0;
+}
+/****************************** 加盟********************************* */
+.div_jiameng{
+	 background:  url(../images/jiameng_bg.png) center center no-repeat; 
+	 -webkit-background-size: cover;
+	 background-size: cover;
+	 text-align: center;
+}
+.a_myjiameng{
+	display: block;
+	margin:0 auto;
+	width:150px;
+	padding:10px 10px;
+	border-radius:50px;
+	position: absolute;
+	bottom:7%;
+	left:50%;
+	margin-left:-75px;
+	background-color: #fce776;
+	overflow: hidden;
+	background-clip:padding-box;/* 解决移动端 圆角 背景色溢出 */
+	text-align: center;
+	font:18px "微软雅黑";
+	color:#fe5d62;
+	box-shadow:0 0 10px rgba(254,93,98,0.9);
+}
+
+
+/******************************** 我的收益 ********************************/
+.div_mymoneytitle{
+	background-color: #f25c61;
+	border:none;
+}
+.div_mymoneytitle .a_btnreturn{
+	background-position: -20px -67px;
+}
+.div_mymoneytitle .htitle{
+	color:#fff;
+}
+.div_moneytop{
+	padding:30px 15px;
+	background-color: #f25c61;
+	text-align: center;
+	margin:0 auto;
+}
+.div_moneytop h3{
+	font:34px "Arial";
+	color:#fff;
+}
+.div_moneytop span{
+	display: inline-block;
+	font:14px "微软雅黑";
+	color:#fff;
+}
+.div_moneytop .a_tixian{
+	display: block;
+	border:1px solid #fff;
+	border-radius: 30px;
+	width:100px;
+	padding:3px 10px;
+	margin:0 auto;
+	margin-top:20px;
+	font:14px "微软雅黑";
+	color:#fff;
+	text-align: center;
+}
+.div_moneybottom{
+	background-color: #fff;
+	margin-top:10px;
+	padding:0 15px;
+	font:14px "微软雅黑";
+	color:#333;
+	text-align: center;
+}
+.div_moneybottom a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.div_moneybottom h3{
+	margin-bottom: 10px;
+}
+.div_moneybottom span{
+	color:#959191;
+}
+.div_moneybottom .span_red{
+	color:#f25c61;
+}
+.div_btnmoney{
+	padding:20px 0;
+	background-color: #fff;
+}
+.borderbottom{
+	border-bottom: 1px solid #eee;
+}
+.bordermiddle{
+	border: 1px solid #eee;
+	border-top:none;
+}
+
+
+/******************************* 营销推广 **************************/
+.div_tuiguang{
+	padding:10px 15px ;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	margin-bottom: 5px;
+}
+.div_tuiguang .div_imgbox{
+	width:30%;
+	float: left;
+}
+.div_tuiguang .div_tgright{
+	display: block;
+	float: left;
+	margin-left: 15px;
+	width:60%;
+}
+.div_tuiguang .div_tgright span{
+	font:16px "微软雅黑";
+	color:#333;
+}
+.div_tuiguang .div_tgright p{
+	width:100%;
+	font:14px "微软雅黑";
+	color:#959595;
+	margin-top: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.div_tgright b{
+	font:14px "Arial";
+	color:#959595;
+	position: absolute;
+	bottom:10px;
+}
+
+
+/************************************** 每日签到 *************************************/
+.div_dailytop .col-xs-4{
+	padding:0;
+}
+.a_lxqd{
+	display: block;
+	margin:0 auto;
+	width: 80px;
+	padding:6px 0;
+	border-radius: 5px;
+	text-align: center;
+	position: absolute;
+	bottom:10%;
+	width: 100%;
+}
+.bordermid{
+	border-left:1px dashed #e85055;
+	border-right:1px dashed #e85055;
+
+}
+.a_lxqd h3,.a_lxqd h4{
+	text-align: center;
+	font:700 14px "微软雅黑";
+	color:#f5686d;
+}
+.a_lxqd h4{
+	margin-top:10px;
+}
+.div_dailymid{
+	padding:10px 15px;
+	background-color: #fff;
+}
+.div_dailymid h3{
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_dailymid .borderbottom{
+	padding: 10px 15px;
+	border-bottom: 1px solid #eee;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_dailymid p{
+	font:14px "微软雅黑";
+	color:#333;
+	float: left;
+}
+.div_dailymid .a_duihuan{
+	display: block;
+	float: right;
+	padding:2px 10px;
+	border:1px solid #e85055;
+	border-radius: 15px;
+	font:14px "微软雅黑";
+	color:#e85055;
+}
+.paddingtb{
+	padding:30px 15px;
+}
+
+.a_wyqd{
+	display: block;
+	margin:0 auto;
+	width:150px;
+	padding:10px 10px;
+	border-radius:50px;
+	border:1px solid #f25c61;
+	background-color: #f68b8f;
+	overflow: hidden;
+	background-clip:padding-box;/* 解决移动端 圆角 背景色溢出 */
+	text-align: center;
+	font:16px "微软雅黑";
+	color:#fff;
+	box-shadow:0 0 10px rgba(254,93,98,0.9);
+}
+/*签到弹窗*/
+.div_popup {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 888;
+}
+.div_mask{
+    background-color: #000;
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+}
+.qiandaobox{
+	width: 220px;
+    height: 120px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: -60px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    z-index: 10;
+}
+.qiandao{
+	width: 220px;
+    height: 120px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: -60px;
+    background-color: #fff;
+    opacity: 0.7;
+    z-index: 9;
+    zoom: 1;
+    border-radius: 10px;
+}
+.qiandaoinner{
+	position: absolute;
+	top:0;
+	left:0;
+	width:220px;
+	height:120px;
+	z-index: 12;
+	text-align: center;
+}
+.qiandaoinner h4{
+	padding-bottom: 39px;
+	padding-top:20px ;
+	text-align: center;
+	font:16px "微软雅黑";
+	color:#333;
+}
+.qiandaoinner  span{
+	display:block;
+	position: absolute;
+	bottom:50px;
+	width:100%;
+	height:1px;
+	background-color: #fff;
+	overflow: hidden;
+	z-index: 11;
+	opacity: 1!important;
+}
+.qiandaoinner a{
+	display: inline-block;
+	padding:4px 20px;
+	background-color: #f25c61;
+	text-align: center;
+	color:#fff;
+	border-radius: 5px;
+}
+/******************************** 商品管理*********************************** */
+
+/* 定位 */
+.btn_location{
+	padding:15px 0;
+}
+.btn_location s{
+	display: inline-block;
+    width: 18px;
+    height: 10px;
+    background: url(../images/icon_index.png) -68px -70px no-repeat;
+    -webkit-background-size: 400px auto;
+    background-size: 400px auto;
+    margin-top: 2px;
+    vertical-align: middle;
+}
+.div_sousuo{
+	position: relative;
+}
+.div_sousuo a{
+	display: inline-block;
+	width:auto;
+	position: absolute;
+	top:2px;
+	left:15px;
+}
+.div_sousuo a i{
+	display: inline-block;
+    width: 20px;
+    padding: 10px 0;
+    background: url(../images/sprites.png) -138px -33px no-repeat;
+	-webkit-background-size: 400px auto;
+	background-size: 400px auto;
+}
+.div_sousuo{
+	border:1px solid #eee;
+	border-radius: 30px;
+	height:30px;
+	margin-top:10px;
+	
+}
+
+.input_search{
+	display: inline-block;
+	height:30px;
+	padding-left: 18px;
+	width:80%;
+	background: none;
+}
+/* 居中 */
+input::-ms-input-placeholder{text-align: center;}
+input::-webkit-input-placeholder{text-align: center;}
+
+.div_btnnav{
+	margin-top: 10px;
+	height:30px;
+	overflow: hidden;
+}
+.div_btns{
+	width:200px;
+	margin:0 auto;
+	position: absolute;
+	left:50%;
+	top:0;
+	margin-left:-100px;
+}
+.btn_goods{
+	border-radius: 20px;
+	padding:4px 12px;
+	border-color:#f25c61;
+	font:12px "微软雅黑";
+	color:#f25c61;
+	width: 33.3%;
+}
+.btn_goods:hover{
+	background-color: #fff;
+	color:#f25c61;
+	border-color:#f25c61;
+}
+.btn_current{
+	color:#918f8f;
+}
+/* 商品列表 */
+.div_goodslist{
+	margin-top:10px;
+}
+.div_goodslist .col-xs-12{
+	padding: 0px 10px;
+    margin-bottom: 5px;
+}
+.div_pro{
+	background-color: #fff;
+	padding:10px;
+	margin:0;
+	height:auto;
+	overflow: hidden;
+}
+.div_proleft{
+	border:1px solid #eee;
+	padding:0;
+
+}
+.div_pro h3{
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.div_proright{
+	display: block;
+}
+.div_proright h3{
+	display: block;
+    height:60%!important;
+
+}
+.div_pro h3,.div_pro h4{
+	display: block;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_proright{
+	padding-right:0;
+}
+.div_pro h4{
+	font-size: 12px;
+	color:#f25c61;
+	position: absolute;
+    bottom: 10px;
+    left: 32%;
+}
+.div_pro h4 span{
+	display: inline-block;
+	margin:0 10px 0 0;
+}
+.div_goods{
+	background-color: #fff;
+}
+
+
+/********************************** 我是卖家个人中心的粉丝团及其下子页面 *****************************/
+.div_visitor{
+	margin-top:10px;
+}
+.div_vleft{
+	border:1px solid #eee;
+	padding:15px;
+}
+.div_visi{
+	background-color: #fff;
+	padding:10px;
+	margin:0;
+	height:auto;
+	overflow: hidden;
+	font:14px "微软雅黑";
+	color:#333;
+}
+.div_visi h5{
+	margin-top:10px;
+}
+.div_visi h5 span:first-child{
+	margin-right: 20px;
+}
+.div_visi p{
+	font-size: 12px;
+	color:#999;
+	position: absolute;
+    bottom: 10px;
+    left: 32%;
+}

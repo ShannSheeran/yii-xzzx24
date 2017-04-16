@@ -1,0 +1,97 @@
+.div_shouhuo{
+	background-color: #fff;
+}
+.div_shouhuo h2{
+	margin-top:10px;
+	text-align: center;
+}
+.div_shouhuo ul{
+	margin-top:10px;
+}
+.div_shouhuo ul li{
+	padding:10px 0;
+	border-bottom:1px solid #eee;
+	position: relative;
+}
+
+.div_shouhuo ul li s,.div_shouhuo ul li i{
+	display: block;
+    float: right;
+    width: 24px;
+    height: 12px;
+    background: url(../images/sprites.png) -190px 0 no-repeat;
+    -webkit-background-size: 375px auto;
+    background-size: 375px auto;
+    vertical-align: middle;
+    margin-top:10px;
+}
+.div_shouhuo ul li s{
+	position: absolute;
+    top: 10px;
+    right: 0;
+}
+.div_shouhuo ul li:nth-child(7){
+	padding-bottom: 0;
+}
+.input_address{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	background-color: none;
+	color:#999;
+}
+.input_name{
+	display: inline-block;
+	width:60%;
+	margin-left: 10%;
+}
+.div_shouhuo ul li i{
+	float: left;
+    width: 22px;
+    padding: 16px 0;
+   	background-position: -233px 0;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+.div_shouhuo ul li:nth-child(8) a{
+	display: block;
+	width:155px;
+	margin:0 auto;
+	text-align: center;
+	padding: 10px 0;
+}
+/********************************* 银行资料 */
+.select_bank{
+	border:none!important;
+	background: none;
+	box-shadow: none;
+	width:60%;
+	display: inline-block;
+	margin:0 auto;
+	padding:0;
+	height:auto!important;
+	color:#a5a5a5;
+	font-size: 14px;
+	text-align: right;
+	float: right;
+	padding-left: 20px;
+	background-color: #fff!important;
+}
+.select_bank option{
+	text-align: right;
+}
+.div_bankimfor ul li:nth-child(7){
+	padding-bottom: 10px;
+}
+
+/* ************************* 店铺设置里面的店铺设置****************************** */
+.textarea_notice{
+	width:100%;
+	overflow: hidden;
+	border:none;
+	resize:none;
+    padding: 5px 0 0 10px;
+    font: 12px/1.5em "微软雅黑";
+    color: #666;
+}
+
