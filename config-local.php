@@ -11,9 +11,9 @@ $aLocal = [
     'is_debug' => true,
     'env' => 'dev',
     //'domain_name' => 'xinfuli.viphk.ngrok',
-    'domain_name' => 'xzzx24',
+    'domain_name' => 'game',
     'domain_suffix' => [
-        'dev' => 'cn',
+        'dev' => 'com',
         'test' => 'test',
         'prod' => 'com',
     ],

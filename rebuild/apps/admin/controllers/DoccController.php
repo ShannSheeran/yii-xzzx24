@@ -2,15 +2,13 @@
 
 namespace admin\controllers;
 
-use admin\models\form\AdvertForm as mForm;
+use admin\models\form\SmsLogForm as mForm;
 use bases\lib\Response;
-use bases\lib\Url;
-use common\model\Advert as mModel;
-use common\model\App as mApp;
+use common\model\SmsLog as mModel;
 use Yii;
 use yii\helpers\ArrayHelper;
 
-class AdvertController extends \admin\lib\ManagerBaseController {
+class DoccController extends \admin\lib\ManagerBaseController {
 
     /**
      * 表示不用检查权限就能访问的action
@@ -31,7 +29,6 @@ class AdvertController extends \admin\lib\ManagerBaseController {
         //使用表单模型验证输入信息
         $mForm = new mForm(mModel::className());
         $isValidate = $mForm->alidateData(mForm::SCENE_GET_DATA_LIST);
-
         if (true !== $isValidate) {
             return $isValidate;
         }
@@ -40,15 +37,6 @@ class AdvertController extends \admin\lib\ManagerBaseController {
             'aDataList' => $mForm->getList(),
             'oPage' => $oPage,
         ];
-    }
-    
-    public static function getAppList(){
-        $aList = mApp::findAll();
-        $aDataList = [];
-        foreach($aList as $aData){
-            $aDataList[] = [$aData['name'],$aData['id']];
-        }
-        return $aDataList;
     }
 
     /**
@@ -63,34 +51,22 @@ class AdvertController extends \admin\lib\ManagerBaseController {
         if (true !== $isValidate) {
             return $isValidate;
         }
-        $lastInsertId = mModel::insert(ArrayHelper::merge($this->_getParameter(), [
-            'create_time' => NOW_TIME,
-        ]));
+        $lastInsertId = mModel::insert(ArrayHelper::merge($this->_getParameter(), []));
         if ($lastInsertId) {
-            $mAdvert = mModel::findOne($lastInsertId);            
-            $link = Yii::$app->urlManagerHome->createUrl(['site/index','aid'=>$lastInsertId]);
-            $mAdvert->set('link',$link);
-            $mAdvert->save();
             return new Response('操作成功', 1, [], 'back');
         }
         return new Response('操作失败');
     }
-
-    private function _getParameter() {
+    
+    private function _getParameter(){
         $oRequest = Yii::$app->request;
         return [
-            'title' => (string) $oRequest->post('title', ''),
-            'content' => (string) $oRequest->post('content', ''),
-            'app_id' => (int) $oRequest->post('app_id', 0),
-            'img' => (string) $oRequest->post('img', ''),
-            'link' => (string) $oRequest->post('link', ''),
-            'create_time' => strtotime((string) $oRequest->post('create_time', '')),
-            'update_time' => strtotime((string) $oRequest->post('update_time', '')),
-            'download_link' => (string) $oRequest->post('download_link', ''),
-            'desc' => (string) $oRequest->post('desc', ''),
-            'start_time' => strtotime((string) $oRequest->post('start_time', '')),
-            'end_time' => strtotime((string) $oRequest->post('end_time', '')),
-            'status' => (int) $oRequest->post('status', 0),
+            'phone' => (string) $oRequest->post('phone',''),
+                'msg' => (string) $oRequest->post('msg',''),
+                'create_time' => (int) $oRequest->post('create_time',0),
+                'status' => (int) $oRequest->post('status',0),
+                'type' => (int) $oRequest->post('type',0),
+                
         ];
     }
 
@@ -98,7 +74,6 @@ class AdvertController extends \admin\lib\ManagerBaseController {
      * 编辑
      */
     public function actionEditor() {
-
         $mModel = mModel::findOne((int) Yii::$app->request->get('id', 0));
         if (!$mModel) {
             return new Response('数据不存在');
@@ -112,11 +87,9 @@ class AdvertController extends \admin\lib\ManagerBaseController {
             return $isValidate;
         }
         $aSaveData = $this->_getParameter();
-        $aSaveData['update_time'] = NOW_TIME;
-        foreach ($aSaveData as $field => $xVale) {
-            $mModel->hasProperty($field) && $mModel->set($field, $xVale);
+        foreach($aSaveData as $field => $xVale){
+            $mModel->hasProperty($field) && $mModel->set($field,$xVale);
         }
-
         if ($mModel->save()) {
             return new Response('操作成功', 1, [], 'back');
         }
@@ -126,7 +99,7 @@ class AdvertController extends \admin\lib\ManagerBaseController {
     /**
      * 更新修改（支持批量）
      */
-    public function actionUpdate() {
+    public function actionUpate() {
         $id = (string) Yii::$app->request->post('id', '');
         $aId = explode(',', $id);
         if (!count($aId)) {

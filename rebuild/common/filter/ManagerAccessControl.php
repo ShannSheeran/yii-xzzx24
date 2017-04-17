@@ -45,7 +45,7 @@ class ManagerAccessControl extends \yii\filters\AccessControl {
                 }
             }
         }
-        
+
         return parent::beforeAction($action);
     }
 

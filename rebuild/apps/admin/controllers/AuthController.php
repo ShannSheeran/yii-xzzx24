@@ -170,6 +170,7 @@ class AuthController extends ManagerBaseController {
         $email && $aCondition['email'] = $email;
         $mobile && $aCondition['mobile'] = $mobile;
         $name && $aCondition['name'] = $name;
+        
         $aUserList = mAuth::getUserList($aCondition, ['page' => $page, 'page_size' => $pageSize]);
         foreach ($aUserList as $key => $aUser) {
             unset($aUserList[$key]['password']);
@@ -354,7 +355,7 @@ class AuthController extends ManagerBaseController {
         }
         return new Response('添加失败');
     }
-    
+
     public function actionEditorNodes() {
         $oRequest = Yii::$app->request;
         if (!$oRequest->isPost) {

@@ -16,6 +16,7 @@ return [
     'baseUrl' => Yii::getAlias('@url.admin'),
     'rules' => [
         '' => 'manager/index',
+
         'yxad.html' => 'site/index',
         'home.html' => 'site/index',
         //登录相关页面
@@ -67,7 +68,8 @@ return [
         'xx/editor.html' => 'xx/editor',
         'xx/update.html' => 'xx/upate',
         'xx/del.html' => 'xx/del',
-        
+        'xx/test.html' => 'advert/test',
+
          //advert路由配置
         'advert/list.html' => 'advert/index',
         'advert/add.html' => 'advert/add',
@@ -88,7 +90,14 @@ return [
         'auth/add-nodes.html' => 'auth/add-nodes',
         'auth/editor-nodes.html' => 'auth/editor-nodes',
         'auth/del-nodes.html' => 'auth/del-nodes',
-        
+
+        // this is for testing
+        'test/index.html' => 'test/index',
+        'test/edit.html' => 'test/edit',
+        'test/add.html' => 'test/add',
+        'test/del.html' => 'test/del',
+
+
         //网站配置管理
         'config/site.html' => 'config/site',
         'config/app.html' => 'config/app',
@@ -99,7 +108,15 @@ return [
         'config/wx_config.html' => 'config/wechat-config',
         'config/wx_save.html' => 'config/wechat-save',
         'config/save.html' => 'config/save',
-        
+
+
+        //docc路由配置
+        'docc/list.html' => 'docc/index',
+        'docc/add.html' => 'docc/add',
+        'docc/editor.html' => 'docc/editor',
+        'docc/update.html' => 'docc/upate',
+        'docc/del.html' => 'docc/del',
+
         //代码生成
         'code.html' => 'auto-generate-code/index',
         'generate/get-field.json' => 'auto-generate-code/get-tabel-field',

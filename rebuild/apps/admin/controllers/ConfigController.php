@@ -17,6 +17,11 @@ class ConfigController extends ManagerBaseController {
         return $this->render('site');
     }
 
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
+
     public function actionApp() {
         return $this->render('app');
     }
